@@ -91,3 +91,10 @@ The **Shaka Lei Kaumaka Agent** is Layer 2 of the Musicology369 ecosystem — a 
     "human_review_required": true
   }
 }
+git clone https://github.com/Musicology369/shaka-lei-kaumaka-agent-jai-edition.git
+cd shaka-lei-kaumaka-agent-jai-edition
+
+pip install -r requirements.txt
+cp .env.example .env
+# Edit with Shaka Lei Kaumaka's personality training data
+python main.py
